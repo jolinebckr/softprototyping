@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Joline Becker // Soft Prototyping</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="row">
+
+        <ul class="main-nav">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li><a href="week-one.html">week one</a></li>
+        <li><a href="week-two.html">week two</a></li>
+        <li><a href="week-three">week three</a></li>
+        <li><a href="week-three-2">week three 2 </a></li>
+        <li><a href="week-three-3">week three 3</a></li>
+    </div>
+
+    <div class="text">
+      <h1>Week 3</h1>
+      <h3>Programming the Attiny with the Arduino</h3>
+      <p>AATtiny85 is smallest microcontroller in ATMEL’s AVR family having less
+         number of pins. It has 8 pins in total in which 6 pins are for programmable
+          Input/Output. It was developed for low power applications such as
+          (battery operated applications).<br>
+          Before we can program the Attiny85 we need to set the Arduino Uni in
+          ISP mode. In the picture below you can see how to do it.<br>
+          Arduino IDE didn’t support ATtiny85 so we had to add ATtiny boards to Arduino IDE. <br>
+          To do this go to File/Preferences and copy the following link: <br>
+          https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json <br>
+          Then go to the Board manager and find the Attiny and install it.
+          You can then see it in the end of the list. <br>
+          The next step is to connect the Attiny to the Arduino using the breadboard.
+          Keep in mind that you connect it correct. (HOW TO CONNECT)<br>
+          Choose the correct processor, clock and programmer. <br>
+          When everything is correct you have to Burn Bootloader.<br>
+          The next step is to create your code. We coded the melody for our
+          card and the blinking LED.<br>
+          Open a new toneMelody window and delet everything that is already in
+          there and paste your code. <br>
+          Then change the pins for the LED and the speaker for those you are going to use.<br>
+          I used the Melody of Jingle Bells. You can see the code here.<br>
+          Connect your LED and your speaker to your Attiny to be able to see your
+          result. I connected the LED to the pin 3 and the speaker to pin 4. Don’t
+          forget to put a resistor for your LED!<br>
+          Verify your code. If everything is fine, connect your Arduino to your
+          computer and upload the code to the Attiny. <br>
+          IMPORTANT! Do not upload it with the upload button. Otherwise you have
+          to reconnect your Attiny and your Breadboard. <br>
+          Upload it using this path: Sketch/Upload Using Programmer
+
+
+      </p>
+    </div>
+  </body>
+</html>
