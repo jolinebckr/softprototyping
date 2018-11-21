@@ -1,29 +1,72 @@
-.main-nav {
-    float: right;
-    list-style: none;
-    margin-top: 30px;
+html{
+  position: relative;
 }
 
-.main-nav li {
-    display: inline-block;
+body{
+  font-family: univers, sans-serif;
+  padding-bottom: 150px;
 }
 
-.main-nav li a {
-    color:black;
+.navigation{
+  text-align: right;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: black;
+  position: absolute;
+  top: 30px;
+  right: 5vw;
+}
+
+.button{
+    background-color: white;
+    color: dimgrey;
+    padding: 5px 32px;
+    text-align: center;
     text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Helvetica";
-    font-size: 15px;
+    display: inline-block;
+    font-size: 16px;
+    }
 
+.button:hover{
+  background-color: red;
+  colour: white;
 }
 
-.main-nav li.active a{
-    border: 1px solid black;
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    padding-top: 15px;
+  }
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  }
+
+.project{
+  weight: 20vw;
+  width: 20vw;
+  background-color: blue;
+  display: block;
+  vertical-align: top;
+  margin: 1.5% 1.5%
+  width: 30%;
+  colour: red;
 }
 
-.main-nav li a:hover{
-    border: 1px solid black;
-    background-color: grey;
-    opacity: .6;
-    transition: all 0.9s ease-in;
+.project:hover{
+  background-color: blue;
+  color: white;
 }
+
+.Topic{
+  font-weight: normal;
+  padding-top: 8vw;
+}
+
+.
