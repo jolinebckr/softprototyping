@@ -1,23 +1,23 @@
-html{
-  position: relative;
+html {
+    position: relative;
 }
 
-body{
-  font-family: univers, sans-serif;
-  padding-bottom: 150px;
-}
+body {
+    font-family: Univers, Univers, sans-serif;
+    padding-bottom: 150px;
+    }
 
-.navigation{
-  text-align: right;
-  font-size: 10px;
-  text-transform: uppercase;
-  color: black;
-  position: absolute;
-  top: 30px;
-  right: 5vw;
-}
+.topnav {
+    text-align: right;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #6D6D6C;
+    position: absolute;
+    top: 30px;
+    right: 5vw;
+   }
 
-.button{
+.button {
     background-color: white;
     color: dimgrey;
     padding: 5px 32px;
@@ -27,10 +27,20 @@ body{
     font-size: 16px;
     }
 
-.button:hover{
-  background-color: red;
-  colour: white;
-}
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    }
+
+.button:hover {
+    background-color: black; /* Black */
+    color: white;
+    }
+
+.logo {
+    padding-top: 100px;
+        }
+
 
 .name {
     font-size: 20px;
@@ -39,34 +49,67 @@ body{
     letter-spacing: 5px;
     font-weight: bolder;
     padding-top: 15px;
-  }
+    }
 
-.grid{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-bottom: 50px;
-  }
+.field {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #6D6D6C;
+    letter-spacing: 3px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    }
 
-.project{
-  weight: 20vw;
-  width: 20vw;
-  background-color: blue;
-  display: block;
-  vertical-align: top;
-  margin: 1.5% 1.5%
-  width: 30%;
-  colour: red;
-}
+.fablab {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight:bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    }
 
-.project:hover{
-  background-color: blue;
-  color: white;
-}
 
-.Topic{
-  font-weight: normal;
-  padding-top: 8vw;
-}
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    }
 
-.
+.project {
+    height: 20vw;
+    width: 20vw;
+    background-color: black;
+    text-align: center;
+    display: block;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    width: 30%;
+    color: white;
+    }
+
+.topic {
+    font-weight: bold;
+    padding-top: 8vw;
+    text-decoration: none;
+    }
+
+.week {
+    text-decoration: none;
+    }
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    }
+
+.project {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    }
+
+.project:hover {
+    background-color: whitesmoke;
+    color: black!important;
+    }
