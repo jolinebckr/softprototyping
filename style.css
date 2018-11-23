@@ -17,6 +17,7 @@ body {
   padding: 5px 20px;
   font-family: "Univers";
   font-size: 15px;
+  border: 1px solid white;
    }
 
 
@@ -30,8 +31,10 @@ body {
     }
 
 .nav:hover {
-    background-color: black; /* Black */
-    color: black;
+  border: 1px solid white;
+  background-color: ghostwhite;
+  opacity: .6;
+  transition: all 0.9s ease-in;
     }
 
 
