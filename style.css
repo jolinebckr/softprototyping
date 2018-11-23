@@ -8,34 +8,30 @@ body {
     }
 
 .navigation {
-    text-align: right;
-    font-size: 10px;
-    text-transform: uppercase;
-    color: #6D6D6C;
-    position: absolute;
-    top: 30px;
-    right: 5vw;
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  display: inline-block;
+  color:white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Univers";
+  font-size: 15px;
    }
 
 
 .nav {
     background-color: white;
-    color: dimgrey;
+    color: Black;
     padding: 5px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    }
-
-.nav {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    font-size: 20px;
     }
 
 .nav:hover {
     background-color: black; /* Black */
-    color: white;
+    color: black;
     }
 
 
