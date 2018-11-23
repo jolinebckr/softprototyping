@@ -7,7 +7,7 @@ body {
     padding-bottom: 150px;
     }
 
-.topnav {
+.navigation {
     text-align: right;
     font-size: 10px;
     text-transform: uppercase;
@@ -16,9 +16,9 @@ body {
     top: 30px;
     right: 5vw;
    }
-   
 
-.button {
+
+.nav {
     background-color: white;
     color: dimgrey;
     padding: 5px 32px;
@@ -28,19 +28,15 @@ body {
     font-size: 16px;
     }
 
-.button {
+.nav {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     }
 
-.button:hover {
+.nav:hover {
     background-color: black; /* Black */
     color: white;
     }
-
-.logo {
-    padding-top: 100px;
-        }
 
 
 .name {
@@ -52,33 +48,16 @@ body {
     padding-top: 15px;
     }
 
-.field {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #6D6D6C;
-    letter-spacing: 3px;
-    padding-top: 8px;
-    padding-bottom: 30px;
-    }
-
-.fablab {
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight:bold;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    }
 
 
-.projectContainer {
+.grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 50px;
     }
 
-.project {
+.container-link {
     height: 20vw;
     width: 20vw;
     background-color: black;
@@ -90,7 +69,7 @@ body {
     color: white;
     }
 
-.topic {
+.headline {
     font-weight: bold;
     padding-top: 8vw;
     text-decoration: none;
@@ -105,12 +84,12 @@ body {
     text-decoration: none;
     }
 
-.project {
+.container-link {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     }
 
-.project:hover {
+.container-link:hover {
     background-color: whitesmoke;
     color: black!important;
     }
